@@ -1,0 +1,17 @@
+h1{
+    color: chocolate;
+    font-size: 44px;
+}
+/* Adicionado css */
+/* como seletor  */
+/* id nao pode ser compartilhado */
+#paragrafo2{
+    color: saddlebrown;
+    font-weight: normal;
+}
+/* adicionado css */
+/* com seletor class */
+.p-texto{
+    color: crimson;
+    font-weight: normal;
+}

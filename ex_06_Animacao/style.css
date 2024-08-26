@@ -1,0 +1,63 @@
+@keyframes animacao{
+    from {background-color: #fdffb6;}
+    to {background-color: #78f3dae1;}
+}
+
+@keyframes animacao2{
+    0%{}
+    30%{width: 100px;}
+    60%{background-color: lightcoral;}
+    80%{left: 100px; background-color: fuchsia;} 
+    100%{height: 200px;}
+
+}
+@keyframes animacao3{
+    from {background-color: #fdffb6;}
+    to {background-color: #78f3dae1;}
+}
+
+@keyframes animacao4{
+    0%{}
+    30%{width: 100px;}
+    60%{background-color: lightcoral;}
+    80%{left: 100px; background-color: fuchsia;} 
+    100%{height: 200px;}
+
+}
+
+
+.animation-div{
+    width: 300px;
+    height: 100px;
+    background-color: deeppink;
+    animation-name: animacao;
+    animation-duration: 5s;
+}
+
+.animation-div2 {
+    width: 300px;
+    height: 100px;
+    background-color: plum;
+    animation-name: animacao2;
+    animation-duration: 5s;
+    /* position para mover na tela */
+    position: relative;
+}
+.animation-div3{
+    width: 300px;
+    height: 100px;
+    background-color: #b514ff;
+    animation-name: animacao;
+    animation-duration: 5s;
+}
+
+.animation-div4 {
+    width: 300px;
+    height: 100px;
+    background-color: #71f7c6;
+    animation-name: animacao2;
+    animation-duration: 5s;
+    /* position para mover na tela */
+    position: relative;
+}
+

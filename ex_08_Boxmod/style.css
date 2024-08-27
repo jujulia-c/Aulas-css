@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+.boxmodel{
+    width: 200px ;
+    height: 200px;
+    background-color: powderblue;
+    /* padding: espaçamento depois do conteúdo */
+    padding: 30px 30px;
+    /* linha que fica após o padding */
+    border: 5px dotted plum;
+    border-left: 15px dotted palevioletred;
+    border-right-style: double;
+    border-radius: 100px;
+    /* adicionando espaço */
+    margin: 20px 20px;
+}

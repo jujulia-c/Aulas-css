@@ -1,0 +1,30 @@
+@keyframes animacao {
+    from {left: 0;}
+    to {left: 500px;}
+}
+
+.box {
+    width: 140px;
+    height: 100px;
+    background-color: #70d89b;
+    /* para mover o intem da tela */
+    position: relative;
+    animation-name: animacao;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#div1{
+    animation-timing-function: linear;
+}
+#div2{
+    animation-timing-function: ease;
+}
+#div3 {
+    animation-timing-function: ease-in;
+}
+#div4 {
+    animation-timing-function: ease-out;
+}
+#div5 {
+    animation-timing-function: ease-in-out;
+}
